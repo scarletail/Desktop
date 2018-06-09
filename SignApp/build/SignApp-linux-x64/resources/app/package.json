@@ -1,0 +1,21 @@
+{
+  "name": "SignApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "packager": "electron-packager ./ SignApp --platform=linux --arch=x64 --out ./build --electronVersion 1.0.0 --overwrite --icon=./icon.png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.4",
+    "electron-reload": "^1.2.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  }
+}

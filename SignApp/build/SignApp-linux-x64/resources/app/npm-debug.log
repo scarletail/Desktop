@@ -1,0 +1,962 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData electron
+20 silly mapToRegistry name electron
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/electron
+24 verbose get https://registry.npmjs.org/electron not expired, no request
+25 silly resolveWithNewModule electron@1.8.7 checking installable status
+26 silly cache add args [ 'electron@^1.8.4', null ]
+27 verbose cache add spec electron@^1.8.4
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'electron@^1.8.4',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'electron',
+28 silly cache add   rawSpec: '^1.8.4',
+28 silly cache add   spec: '>=1.8.4 <2.0.0',
+28 silly cache add   type: 'range' }
+29 silly addNamed electron@>=1.8.4 <2.0.0
+30 verbose addNamed ">=1.8.4 <2.0.0" is a valid semver range for electron
+31 silly addNameRange { name: 'electron', range: '>=1.8.4 <2.0.0', hasData: false }
+32 silly mapToRegistry name electron
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/electron
+36 verbose addNameRange registry:https://registry.npmjs.org/electron not in flight; fetching
+37 verbose get https://registry.npmjs.org/electron not expired, no request
+38 silly addNameRange number 2 { name: 'electron', range: '>=1.8.4 <2.0.0', hasData: true }
+39 silly addNameRange versions [ 'electron',
+39 silly addNameRange   [ '0.1.0',
+39 silly addNameRange     '0.1.1',
+39 silly addNameRange     '0.1.2',
+39 silly addNameRange     '0.2.0',
+39 silly addNameRange     '0.2.1',
+39 silly addNameRange     '0.3.0',
+39 silly addNameRange     '0.4.0',
+39 silly addNameRange     '0.4.1',
+39 silly addNameRange     '1.3.1',
+39 silly addNameRange     '1.3.2',
+39 silly addNameRange     '1.3.3',
+39 silly addNameRange     '1.3.4',
+39 silly addNameRange     '1.3.5',
+39 silly addNameRange     '1.3.6',
+39 silly addNameRange     '1.4.0',
+39 silly addNameRange     '1.4.1',
+39 silly addNameRange     '1.3.7',
+39 silly addNameRange     '1.4.2',
+39 silly addNameRange     '1.4.3',
+39 silly addNameRange     '1.4.4',
+39 silly addNameRange     '1.3.8',
+39 silly addNameRange     '1.4.5',
+39 silly addNameRange     '1.4.6',
+39 silly addNameRange     '1.4.7',
+39 silly addNameRange     '1.3.9',
+39 silly addNameRange     '1.3.10',
+39 silly addNameRange     '1.4.8',
+39 silly addNameRange     '1.3.12',
+39 silly addNameRange     '1.4.10',
+39 silly addNameRange     '1.3.13',
+39 silly addNameRange     '1.4.11',
+39 silly addNameRange     '1.4.12',
+39 silly addNameRange     '1.4.13',
+39 silly addNameRange     '1.4.14',
+39 silly addNameRange     '1.4.15',
+39 silly addNameRange     '1.5.0',
+39 silly addNameRange     '1.5.1',
+39 silly addNameRange     '1.6.0',
+39 silly addNameRange     '1.6.1',
+39 silly addNameRange     '1.6.2',
+39 silly addNameRange     '1.6.3',
+39 silly addNameRange     '1.3.14',
+39 silly addNameRange     '1.6.4',
+39 silly addNameRange     '1.6.5',
+39 silly addNameRange     '1.4.16',
+39 silly addNameRange     '1.6.6',
+39 silly addNameRange     '1.6.7',
+39 silly addNameRange     '1.3.15',
+39 silly addNameRange     '1.6.8',
+39 silly addNameRange     '1.6.9',
+39 silly addNameRange     '1.7.0',
+39 silly addNameRange     '1.6.10',
+39 silly addNameRange     '1.7.1',
+39 silly addNameRange     '1.6.11',
+39 silly addNameRange     '1.7.2',
+39 silly addNameRange     '1.7.3',
+39 silly addNameRange     '1.7.4',
+39 silly addNameRange     '1.7.5',
+39 silly addNameRange     '1.6.12',
+39 silly addNameRange     '1.7.6',
+39 silly addNameRange     '1.7.7',
+39 silly addNameRange     '1.6.13',
+39 silly addNameRange     '1.7.8',
+39 silly addNameRange     '1.6.14',
+39 silly addNameRange     '1.8.1',
+39 silly addNameRange     '1.7.9',
+39 silly addNameRange     '1.6.15',
+39 silly addNameRange     '1.8.2-beta.1',
+39 silly addNameRange     '1.8.2-beta.2',
+39 silly addNameRange     '1.8.2-beta.3',
+39 silly addNameRange     '1.7.10',
+39 silly addNameRange     '1.7.11',
+39 silly addNameRange     '1.6.16',
+39 silly addNameRange     '1.8.2-beta.4',
+39 silly addNameRange     '1.8.2-beta.5',
+39 silly addNameRange     '1.7.12',
+39 silly addNameRange     '1.6.17',
+39 silly addNameRange     '1.8.2',
+39 silly addNameRange     '2.0.0-beta.1',
+39 silly addNameRange     '2.0.0-beta.2',
+39 silly addNameRange     '1.8.3',
+39 silly addNameRange     '2.0.0-beta.3',
+39 silly addNameRange     '1.7.13',
+39 silly addNameRange     '2.0.0-beta.4',
+39 silly addNameRange     '1.8.4',
+39 silly addNameRange     '2.0.0-beta.5',
+39 silly addNameRange     '2.0.0-beta.6',
+39 silly addNameRange     '2.0.0-beta.7',
+39 silly addNameRange     '2.0.0-beta.8',
+39 silly addNameRange     '1.8.5',
+39 silly addNameRange     '1.7.14',
+39 silly addNameRange     '1.8.6',
+39 silly addNameRange     '2.0.0',
+39 silly addNameRange     '1.6.18',
+39 silly addNameRange     '1.7.15',
+39 silly addNameRange     '1.8.7',
+39 silly addNameRange     '2.0.1',
+39 silly addNameRange     '2.0.2' ] ]
+40 silly addNamed electron@1.8.7
+41 verbose addNamed "1.8.7" is a plain semver version for electron
+42 silly mapToRegistry name electron
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/electron
+46 verbose addRemoteTarball https://registry.npmjs.org/electron/-/electron-1.8.7.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron/-/electron-1.8.7.tgz',
+47 verbose addRemoteTarball   '373c1dc4589d7ab4acd49aff8db4a1c0a6c3bcc1' ]
+48 info retry fetch attempt 1 at 8:13:18 PM
+49 info attempt registry request try #1 at 8:13:18 PM
+50 http fetch GET https://registry.npmjs.org/electron/-/electron-1.8.7.tgz
+51 verbose request id 33ec075a82330ef6
+52 http fetch 200 https://registry.npmjs.org/electron/-/electron-1.8.7.tgz
+53 silly fetchAndShaCheck shasum 373c1dc4589d7ab4acd49aff8db4a1c0a6c3bcc1
+54 verbose addTmpTarball /tmp/npm-753-4d080a83/registry.npmjs.org/electron/-/electron-1.8.7.tgz not in flight; adding
+55 verbose addTmpTarball already have metadata; skipping unpack for electron@1.8.7
+56 silly cache afterAdd electron@1.8.7
+57 verbose afterAdd /home/ubuntu/.npm/electron/1.8.7/package/package.json not in flight; writing
+58 verbose afterAdd /home/ubuntu/.npm/electron/1.8.7/package/package.json written
+59 silly fetchNamedPackageData fsevents
+60 silly mapToRegistry name fsevents
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+64 verbose get https://registry.npmjs.org/fsevents not expired, no request
+65 silly resolveWithNewModule fsevents@1.2.4 checking installable status
+66 silly loadAllDepsIntoIdealTree Finishing
+67 silly idealTree:prePrune SignApp@1.0.0
+67 silly idealTree:prePrune ├── @types/node@8.10.9
+67 silly idealTree:prePrune ├── ajv@5.5.2
+67 silly idealTree:prePrune ├── ansi-regex@2.1.1
+67 silly idealTree:prePrune ├── anymatch@1.3.2
+67 silly idealTree:prePrune ├── arr-diff@2.0.0
+67 silly idealTree:prePrune ├── arr-flatten@1.1.0
+67 silly idealTree:prePrune ├── array-find-index@1.0.2
+67 silly idealTree:prePrune ├── array-unique@0.2.1
+67 silly idealTree:prePrune ├── asn1@0.2.3
+67 silly idealTree:prePrune ├── assert-plus@1.0.0
+67 silly idealTree:prePrune ├── async-each@1.0.1
+67 silly idealTree:prePrune ├── asynckit@0.4.0
+67 silly idealTree:prePrune ├── aws-sign2@0.7.0
+67 silly idealTree:prePrune ├── aws4@1.7.0
+67 silly idealTree:prePrune ├── balanced-match@1.0.0
+67 silly idealTree:prePrune ├── bcrypt-pbkdf@1.0.1
+67 silly idealTree:prePrune ├── binary-extensions@1.11.0
+67 silly idealTree:prePrune ├── boom@4.3.1
+67 silly idealTree:prePrune ├── brace-expansion@1.1.11
+67 silly idealTree:prePrune ├── braces@1.8.5
+67 silly idealTree:prePrune ├── builtin-modules@1.1.1
+67 silly idealTree:prePrune ├── camelcase-keys@2.1.0
+67 silly idealTree:prePrune ├── camelcase@2.1.1
+67 silly idealTree:prePrune ├── caseless@0.12.0
+67 silly idealTree:prePrune ├── chokidar@1.7.0
+67 silly idealTree:prePrune ├── co@4.6.0
+67 silly idealTree:prePrune ├── code-point-at@1.1.0
+67 silly idealTree:prePrune ├── combined-stream@1.0.6
+67 silly idealTree:prePrune ├── concat-map@0.0.1
+67 silly idealTree:prePrune ├─┬ concat-stream@1.6.0
+67 silly idealTree:prePrune │ ├── isarray@1.0.0
+67 silly idealTree:prePrune │ ├── readable-stream@2.3.6
+67 silly idealTree:prePrune │ └── string_decoder@1.1.1
+67 silly idealTree:prePrune ├── core-util-is@1.0.2
+67 silly idealTree:prePrune ├─┬ cryptiles@3.1.2
+67 silly idealTree:prePrune │ └── boom@5.2.0
+67 silly idealTree:prePrune ├── currently-unhandled@0.4.1
+67 silly idealTree:prePrune ├── dashdash@1.14.1
+67 silly idealTree:prePrune ├── debug@2.6.9
+67 silly idealTree:prePrune ├── decamelize@1.2.0
+67 silly idealTree:prePrune ├── deep-extend@0.4.2
+67 silly idealTree:prePrune ├── delayed-stream@1.0.0
+67 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
+67 silly idealTree:prePrune ├── electron-download@3.3.0
+67 silly idealTree:prePrune ├── electron-reload@1.2.2
+67 silly idealTree:prePrune ├── electron@1.8.7
+67 silly idealTree:prePrune ├── error-ex@1.3.1
+67 silly idealTree:prePrune ├── es6-promise@4.2.4
+67 silly idealTree:prePrune ├── expand-brackets@0.1.5
+67 silly idealTree:prePrune ├── expand-range@1.8.2
+67 silly idealTree:prePrune ├── extend@3.0.1
+67 silly idealTree:prePrune ├── extglob@0.3.2
+67 silly idealTree:prePrune ├── extract-zip@1.6.6
+67 silly idealTree:prePrune ├── extsprintf@1.3.0
+67 silly idealTree:prePrune ├── fast-deep-equal@1.1.0
+67 silly idealTree:prePrune ├── fast-json-stable-stringify@2.0.0
+67 silly idealTree:prePrune ├── fd-slicer@1.0.1
+67 silly idealTree:prePrune ├── filename-regex@2.0.1
+67 silly idealTree:prePrune ├── fill-range@2.2.3
+67 silly idealTree:prePrune ├── find-up@1.1.2
+67 silly idealTree:prePrune ├── for-in@1.0.2
+67 silly idealTree:prePrune ├── for-own@0.1.5
+67 silly idealTree:prePrune ├── forever-agent@0.6.1
+67 silly idealTree:prePrune ├── form-data@2.3.2
+67 silly idealTree:prePrune ├── fs-extra@0.30.0
+67 silly idealTree:prePrune ├── fs.realpath@1.0.0
+67 silly idealTree:prePrune ├── get-stdin@4.0.1
+67 silly idealTree:prePrune ├── getpass@0.1.7
+67 silly idealTree:prePrune ├── glob-base@0.3.0
+67 silly idealTree:prePrune ├── glob-parent@2.0.0
+67 silly idealTree:prePrune ├── glob@7.1.2
+67 silly idealTree:prePrune ├── graceful-fs@4.1.11
+67 silly idealTree:prePrune ├── har-schema@2.0.0
+67 silly idealTree:prePrune ├── har-validator@5.0.3
+67 silly idealTree:prePrune ├── hawk@6.0.2
+67 silly idealTree:prePrune ├── hoek@4.2.1
+67 silly idealTree:prePrune ├── home-path@1.0.5
+67 silly idealTree:prePrune ├── hosted-git-info@2.6.0
+67 silly idealTree:prePrune ├── http-signature@1.2.0
+67 silly idealTree:prePrune ├── indent-string@2.1.0
+67 silly idealTree:prePrune ├── inflight@1.0.6
+67 silly idealTree:prePrune ├── inherits@2.0.3
+67 silly idealTree:prePrune ├── ini@1.3.5
+67 silly idealTree:prePrune ├── is-arrayish@0.2.1
+67 silly idealTree:prePrune ├── is-binary-path@1.0.1
+67 silly idealTree:prePrune ├── is-buffer@1.1.6
+67 silly idealTree:prePrune ├── is-builtin-module@1.0.0
+67 silly idealTree:prePrune ├── is-dotfile@1.0.3
+67 silly idealTree:prePrune ├── is-equal-shallow@0.1.3
+67 silly idealTree:prePrune ├── is-extendable@0.1.1
+67 silly idealTree:prePrune ├── is-extglob@1.0.0
+67 silly idealTree:prePrune ├── is-finite@1.0.2
+67 silly idealTree:prePrune ├── is-fullwidth-code-point@1.0.0
+67 silly idealTree:prePrune ├── is-glob@2.0.1
+67 silly idealTree:prePrune ├── is-number@2.1.0
+67 silly idealTree:prePrune ├── is-posix-bracket@0.1.1
+67 silly idealTree:prePrune ├── is-primitive@2.0.0
+67 silly idealTree:prePrune ├── is-typedarray@1.0.0
+67 silly idealTree:prePrune ├── is-utf8@0.2.1
+67 silly idealTree:prePrune ├── isarray@0.0.1
+67 silly idealTree:prePrune ├─┬ isobject@2.1.0
+67 silly idealTree:prePrune │ └── isarray@1.0.0
+67 silly idealTree:prePrune ├── isstream@0.1.2
+67 silly idealTree:prePrune ├── jsbn@0.1.1
+67 silly idealTree:prePrune ├── json-schema-traverse@0.3.1
+67 silly idealTree:prePrune ├── json-schema@0.2.3
+67 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+67 silly idealTree:prePrune ├── jsonfile@2.4.0
+67 silly idealTree:prePrune ├── jsprim@1.4.1
+67 silly idealTree:prePrune ├── kind-of@3.2.2
+67 silly idealTree:prePrune ├── klaw@1.3.1
+67 silly idealTree:prePrune ├── load-json-file@1.1.0
+67 silly idealTree:prePrune ├── loud-rejection@1.6.0
+67 silly idealTree:prePrune ├── map-obj@1.0.1
+67 silly idealTree:prePrune ├── meow@3.7.0
+67 silly idealTree:prePrune ├── micromatch@2.3.11
+67 silly idealTree:prePrune ├── mime-db@1.33.0
+67 silly idealTree:prePrune ├── mime-types@2.1.18
+67 silly idealTree:prePrune ├── minimatch@3.0.4
+67 silly idealTree:prePrune ├── minimist@1.2.0
+67 silly idealTree:prePrune ├─┬ mkdirp@0.5.0
+67 silly idealTree:prePrune │ └── minimist@0.0.8
+67 silly idealTree:prePrune ├── ms@2.0.0
+67 silly idealTree:prePrune ├── normalize-package-data@2.4.0
+67 silly idealTree:prePrune ├── normalize-path@2.1.1
+67 silly idealTree:prePrune ├── nugget@2.0.1
+67 silly idealTree:prePrune ├── number-is-nan@1.0.1
+67 silly idealTree:prePrune ├── oauth-sign@0.8.2
+67 silly idealTree:prePrune ├── object-assign@4.1.1
+67 silly idealTree:prePrune ├── object-keys@0.4.0
+67 silly idealTree:prePrune ├── object.omit@2.0.1
+67 silly idealTree:prePrune ├── once@1.4.0
+67 silly idealTree:prePrune ├── parse-glob@3.0.4
+67 silly idealTree:prePrune ├── parse-json@2.2.0
+67 silly idealTree:prePrune ├── path-exists@2.1.0
+67 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+67 silly idealTree:prePrune ├── path-type@1.1.0
+67 silly idealTree:prePrune ├── pend@1.2.0
+67 silly idealTree:prePrune ├── performance-now@2.1.0
+67 silly idealTree:prePrune ├── pify@2.3.0
+67 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+67 silly idealTree:prePrune ├── pinkie@2.0.4
+67 silly idealTree:prePrune ├── preserve@0.2.0
+67 silly idealTree:prePrune ├── pretty-bytes@1.0.4
+67 silly idealTree:prePrune ├── process-nextick-args@2.0.0
+67 silly idealTree:prePrune ├── progress-stream@1.2.0
+67 silly idealTree:prePrune ├── punycode@1.4.1
+67 silly idealTree:prePrune ├── qs@6.5.1
+67 silly idealTree:prePrune ├─┬ randomatic@1.1.7
+67 silly idealTree:prePrune │ ├─┬ is-number@3.0.0
+67 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+67 silly idealTree:prePrune │ └── kind-of@4.0.0
+67 silly idealTree:prePrune ├── rc@1.2.6
+67 silly idealTree:prePrune ├── read-pkg-up@1.0.1
+67 silly idealTree:prePrune ├── read-pkg@1.1.0
+67 silly idealTree:prePrune ├── readable-stream@1.1.14
+67 silly idealTree:prePrune ├─┬ readdirp@2.1.0
+67 silly idealTree:prePrune │ ├── isarray@1.0.0
+67 silly idealTree:prePrune │ ├── readable-stream@2.3.6
+67 silly idealTree:prePrune │ └── string_decoder@1.1.1
+67 silly idealTree:prePrune ├── redent@1.0.0
+67 silly idealTree:prePrune ├── regex-cache@0.4.4
+67 silly idealTree:prePrune ├── remove-trailing-separator@1.1.0
+67 silly idealTree:prePrune ├── repeat-element@1.1.2
+67 silly idealTree:prePrune ├── repeat-string@1.6.1
+67 silly idealTree:prePrune ├── repeating@2.0.1
+67 silly idealTree:prePrune ├── request@2.85.0
+67 silly idealTree:prePrune ├── rimraf@2.6.2
+67 silly idealTree:prePrune ├── safe-buffer@5.1.1
+67 silly idealTree:prePrune ├── semver@5.5.0
+67 silly idealTree:prePrune ├── set-immediate-shim@1.0.1
+67 silly idealTree:prePrune ├── signal-exit@3.0.2
+67 silly idealTree:prePrune ├── single-line-log@1.1.2
+67 silly idealTree:prePrune ├── sntp@2.1.0
+67 silly idealTree:prePrune ├── spdx-correct@3.0.0
+67 silly idealTree:prePrune ├── spdx-exceptions@2.1.0
+67 silly idealTree:prePrune ├── spdx-expression-parse@3.0.0
+67 silly idealTree:prePrune ├── spdx-license-ids@3.0.0
+67 silly idealTree:prePrune ├── speedometer@0.1.4
+67 silly idealTree:prePrune ├── sshpk@1.14.1
+67 silly idealTree:prePrune ├── string_decoder@0.10.31
+67 silly idealTree:prePrune ├── string-width@1.0.2
+67 silly idealTree:prePrune ├── stringstream@0.0.5
+67 silly idealTree:prePrune ├── strip-ansi@3.0.1
+67 silly idealTree:prePrune ├── strip-bom@2.0.0
+67 silly idealTree:prePrune ├── strip-indent@1.0.1
+67 silly idealTree:prePrune ├── strip-json-comments@2.0.1
+67 silly idealTree:prePrune ├── sumchecker@1.3.1
+67 silly idealTree:prePrune ├── throttleit@0.0.2
+67 silly idealTree:prePrune ├── through2@0.2.3
+67 silly idealTree:prePrune ├── tough-cookie@2.3.4
+67 silly idealTree:prePrune ├── trim-newlines@1.0.0
+67 silly idealTree:prePrune ├── tunnel-agent@0.6.0
+67 silly idealTree:prePrune ├── tweetnacl@0.14.5
+67 silly idealTree:prePrune ├── typedarray@0.0.6
+67 silly idealTree:prePrune ├── util-deprecate@1.0.2
+67 silly idealTree:prePrune ├── uuid@3.2.1
+67 silly idealTree:prePrune ├── validate-npm-package-license@3.0.3
+67 silly idealTree:prePrune ├── verror@1.10.0
+67 silly idealTree:prePrune ├── wrappy@1.0.2
+67 silly idealTree:prePrune ├── xtend@2.1.2
+67 silly idealTree:prePrune └── yauzl@2.4.1
+68 silly loadIdealTree Finishing
+69 silly currentTree SignApp@1.0.0
+69 silly currentTree ├── @types/node@8.10.9
+69 silly currentTree ├── ajv@5.5.2
+69 silly currentTree ├── ansi-regex@2.1.1
+69 silly currentTree ├── anymatch@1.3.2
+69 silly currentTree ├── arr-diff@2.0.0
+69 silly currentTree ├── arr-flatten@1.1.0
+69 silly currentTree ├── array-find-index@1.0.2
+69 silly currentTree ├── array-unique@0.2.1
+69 silly currentTree ├── asn1@0.2.3
+69 silly currentTree ├── assert-plus@1.0.0
+69 silly currentTree ├── async-each@1.0.1
+69 silly currentTree ├── asynckit@0.4.0
+69 silly currentTree ├── aws-sign2@0.7.0
+69 silly currentTree ├── aws4@1.7.0
+69 silly currentTree ├── balanced-match@1.0.0
+69 silly currentTree ├── bcrypt-pbkdf@1.0.1
+69 silly currentTree ├── binary-extensions@1.11.0
+69 silly currentTree ├── boom@4.3.1
+69 silly currentTree ├── brace-expansion@1.1.11
+69 silly currentTree ├── braces@1.8.5
+69 silly currentTree ├── builtin-modules@1.1.1
+69 silly currentTree ├── camelcase-keys@2.1.0
+69 silly currentTree ├── camelcase@2.1.1
+69 silly currentTree ├── caseless@0.12.0
+69 silly currentTree ├── chokidar@1.7.0
+69 silly currentTree ├── co@4.6.0
+69 silly currentTree ├── code-point-at@1.1.0
+69 silly currentTree ├── combined-stream@1.0.6
+69 silly currentTree ├── concat-map@0.0.1
+69 silly currentTree ├─┬ concat-stream@1.6.0
+69 silly currentTree │ ├── isarray@1.0.0
+69 silly currentTree │ ├── readable-stream@2.3.6
+69 silly currentTree │ └── string_decoder@1.1.1
+69 silly currentTree ├── core-util-is@1.0.2
+69 silly currentTree ├─┬ cryptiles@3.1.2
+69 silly currentTree │ └── boom@5.2.0
+69 silly currentTree ├── currently-unhandled@0.4.1
+69 silly currentTree ├── dashdash@1.14.1
+69 silly currentTree ├── debug@2.6.9
+69 silly currentTree ├── decamelize@1.2.0
+69 silly currentTree ├── deep-extend@0.4.2
+69 silly currentTree ├── delayed-stream@1.0.0
+69 silly currentTree ├── ecc-jsbn@0.1.1
+69 silly currentTree ├── electron-download@3.3.0
+69 silly currentTree ├── electron-reload@1.2.2
+69 silly currentTree ├── error-ex@1.3.1
+69 silly currentTree ├── es6-promise@4.2.4
+69 silly currentTree ├── expand-brackets@0.1.5
+69 silly currentTree ├── expand-range@1.8.2
+69 silly currentTree ├── extend@3.0.1
+69 silly currentTree ├── extglob@0.3.2
+69 silly currentTree ├── extract-zip@1.6.6
+69 silly currentTree ├── extsprintf@1.3.0
+69 silly currentTree ├── fast-deep-equal@1.1.0
+69 silly currentTree ├── fast-json-stable-stringify@2.0.0
+69 silly currentTree ├── fd-slicer@1.0.1
+69 silly currentTree ├── filename-regex@2.0.1
+69 silly currentTree ├── fill-range@2.2.3
+69 silly currentTree ├── find-up@1.1.2
+69 silly currentTree ├── for-in@1.0.2
+69 silly currentTree ├── for-own@0.1.5
+69 silly currentTree ├── forever-agent@0.6.1
+69 silly currentTree ├── form-data@2.3.2
+69 silly currentTree ├── fs-extra@0.30.0
+69 silly currentTree ├── fs.realpath@1.0.0
+69 silly currentTree ├── get-stdin@4.0.1
+69 silly currentTree ├── getpass@0.1.7
+69 silly currentTree ├── glob-base@0.3.0
+69 silly currentTree ├── glob-parent@2.0.0
+69 silly currentTree ├── glob@7.1.2
+69 silly currentTree ├── graceful-fs@4.1.11
+69 silly currentTree ├── har-schema@2.0.0
+69 silly currentTree ├── har-validator@5.0.3
+69 silly currentTree ├── hawk@6.0.2
+69 silly currentTree ├── hoek@4.2.1
+69 silly currentTree ├── home-path@1.0.5
+69 silly currentTree ├── hosted-git-info@2.6.0
+69 silly currentTree ├── http-signature@1.2.0
+69 silly currentTree ├── indent-string@2.1.0
+69 silly currentTree ├── inflight@1.0.6
+69 silly currentTree ├── inherits@2.0.3
+69 silly currentTree ├── ini@1.3.5
+69 silly currentTree ├── is-arrayish@0.2.1
+69 silly currentTree ├── is-binary-path@1.0.1
+69 silly currentTree ├── is-buffer@1.1.6
+69 silly currentTree ├── is-builtin-module@1.0.0
+69 silly currentTree ├── is-dotfile@1.0.3
+69 silly currentTree ├── is-equal-shallow@0.1.3
+69 silly currentTree ├── is-extendable@0.1.1
+69 silly currentTree ├── is-extglob@1.0.0
+69 silly currentTree ├── is-finite@1.0.2
+69 silly currentTree ├── is-fullwidth-code-point@1.0.0
+69 silly currentTree ├── is-glob@2.0.1
+69 silly currentTree ├── is-number@2.1.0
+69 silly currentTree ├── is-posix-bracket@0.1.1
+69 silly currentTree ├── is-primitive@2.0.0
+69 silly currentTree ├── is-typedarray@1.0.0
+69 silly currentTree ├── is-utf8@0.2.1
+69 silly currentTree ├── isarray@0.0.1
+69 silly currentTree ├─┬ isobject@2.1.0
+69 silly currentTree │ └── isarray@1.0.0
+69 silly currentTree ├── isstream@0.1.2
+69 silly currentTree ├── jsbn@0.1.1
+69 silly currentTree ├── json-schema-traverse@0.3.1
+69 silly currentTree ├── json-schema@0.2.3
+69 silly currentTree ├── json-stringify-safe@5.0.1
+69 silly currentTree ├── jsonfile@2.4.0
+69 silly currentTree ├── jsprim@1.4.1
+69 silly currentTree ├── kind-of@3.2.2
+69 silly currentTree ├── klaw@1.3.1
+69 silly currentTree ├── load-json-file@1.1.0
+69 silly currentTree ├── loud-rejection@1.6.0
+69 silly currentTree ├── map-obj@1.0.1
+69 silly currentTree ├── meow@3.7.0
+69 silly currentTree ├── micromatch@2.3.11
+69 silly currentTree ├── mime-db@1.33.0
+69 silly currentTree ├── mime-types@2.1.18
+69 silly currentTree ├── minimatch@3.0.4
+69 silly currentTree ├── minimist@1.2.0
+69 silly currentTree ├─┬ mkdirp@0.5.0
+69 silly currentTree │ └── minimist@0.0.8
+69 silly currentTree ├── ms@2.0.0
+69 silly currentTree ├── normalize-package-data@2.4.0
+69 silly currentTree ├── normalize-path@2.1.1
+69 silly currentTree ├── nugget@2.0.1
+69 silly currentTree ├── number-is-nan@1.0.1
+69 silly currentTree ├── oauth-sign@0.8.2
+69 silly currentTree ├── object-assign@4.1.1
+69 silly currentTree ├── object-keys@0.4.0
+69 silly currentTree ├── object.omit@2.0.1
+69 silly currentTree ├── once@1.4.0
+69 silly currentTree ├── parse-glob@3.0.4
+69 silly currentTree ├── parse-json@2.2.0
+69 silly currentTree ├── path-exists@2.1.0
+69 silly currentTree ├── path-is-absolute@1.0.1
+69 silly currentTree ├── path-type@1.1.0
+69 silly currentTree ├── pend@1.2.0
+69 silly currentTree ├── performance-now@2.1.0
+69 silly currentTree ├── pify@2.3.0
+69 silly currentTree ├── pinkie-promise@2.0.1
+69 silly currentTree ├── pinkie@2.0.4
+69 silly currentTree ├── preserve@0.2.0
+69 silly currentTree ├── pretty-bytes@1.0.4
+69 silly currentTree ├── process-nextick-args@2.0.0
+69 silly currentTree ├── progress-stream@1.2.0
+69 silly currentTree ├── punycode@1.4.1
+69 silly currentTree ├── qs@6.5.1
+69 silly currentTree ├─┬ randomatic@1.1.7
+69 silly currentTree │ ├─┬ is-number@3.0.0
+69 silly currentTree │ │ └── kind-of@3.2.2
+69 silly currentTree │ └── kind-of@4.0.0
+69 silly currentTree ├── rc@1.2.6
+69 silly currentTree ├── read-pkg-up@1.0.1
+69 silly currentTree ├── read-pkg@1.1.0
+69 silly currentTree ├── readable-stream@1.1.14
+69 silly currentTree ├─┬ readdirp@2.1.0
+69 silly currentTree │ ├── isarray@1.0.0
+69 silly currentTree │ ├── readable-stream@2.3.6
+69 silly currentTree │ └── string_decoder@1.1.1
+69 silly currentTree ├── redent@1.0.0
+69 silly currentTree ├── regex-cache@0.4.4
+69 silly currentTree ├── remove-trailing-separator@1.1.0
+69 silly currentTree ├── repeat-element@1.1.2
+69 silly currentTree ├── repeat-string@1.6.1
+69 silly currentTree ├── repeating@2.0.1
+69 silly currentTree ├── request@2.85.0
+69 silly currentTree ├── rimraf@2.6.2
+69 silly currentTree ├── safe-buffer@5.1.1
+69 silly currentTree ├── semver@5.5.0
+69 silly currentTree ├── set-immediate-shim@1.0.1
+69 silly currentTree ├── signal-exit@3.0.2
+69 silly currentTree ├── single-line-log@1.1.2
+69 silly currentTree ├── sntp@2.1.0
+69 silly currentTree ├── spdx-correct@3.0.0
+69 silly currentTree ├── spdx-exceptions@2.1.0
+69 silly currentTree ├── spdx-expression-parse@3.0.0
+69 silly currentTree ├── spdx-license-ids@3.0.0
+69 silly currentTree ├── speedometer@0.1.4
+69 silly currentTree ├── sshpk@1.14.1
+69 silly currentTree ├── string_decoder@0.10.31
+69 silly currentTree ├── string-width@1.0.2
+69 silly currentTree ├── stringstream@0.0.5
+69 silly currentTree ├── strip-ansi@3.0.1
+69 silly currentTree ├── strip-bom@2.0.0
+69 silly currentTree ├── strip-indent@1.0.1
+69 silly currentTree ├── strip-json-comments@2.0.1
+69 silly currentTree ├── sumchecker@1.3.1
+69 silly currentTree ├── throttleit@0.0.2
+69 silly currentTree ├── through2@0.2.3
+69 silly currentTree ├── tough-cookie@2.3.4
+69 silly currentTree ├── trim-newlines@1.0.0
+69 silly currentTree ├── tunnel-agent@0.6.0
+69 silly currentTree ├── tweetnacl@0.14.5
+69 silly currentTree ├── typedarray@0.0.6
+69 silly currentTree ├── util-deprecate@1.0.2
+69 silly currentTree ├── uuid@3.2.1
+69 silly currentTree ├── validate-npm-package-license@3.0.3
+69 silly currentTree ├── verror@1.10.0
+69 silly currentTree ├── wrappy@1.0.2
+69 silly currentTree ├── xtend@2.1.2
+69 silly currentTree └── yauzl@2.4.1
+70 silly idealTree SignApp@1.0.0
+70 silly idealTree ├── @types/node@8.10.9
+70 silly idealTree ├── ajv@5.5.2
+70 silly idealTree ├── ansi-regex@2.1.1
+70 silly idealTree ├── anymatch@1.3.2
+70 silly idealTree ├── arr-diff@2.0.0
+70 silly idealTree ├── arr-flatten@1.1.0
+70 silly idealTree ├── array-find-index@1.0.2
+70 silly idealTree ├── array-unique@0.2.1
+70 silly idealTree ├── asn1@0.2.3
+70 silly idealTree ├── assert-plus@1.0.0
+70 silly idealTree ├── async-each@1.0.1
+70 silly idealTree ├── asynckit@0.4.0
+70 silly idealTree ├── aws-sign2@0.7.0
+70 silly idealTree ├── aws4@1.7.0
+70 silly idealTree ├── balanced-match@1.0.0
+70 silly idealTree ├── bcrypt-pbkdf@1.0.1
+70 silly idealTree ├── binary-extensions@1.11.0
+70 silly idealTree ├── boom@4.3.1
+70 silly idealTree ├── brace-expansion@1.1.11
+70 silly idealTree ├── braces@1.8.5
+70 silly idealTree ├── builtin-modules@1.1.1
+70 silly idealTree ├── camelcase-keys@2.1.0
+70 silly idealTree ├── camelcase@2.1.1
+70 silly idealTree ├── caseless@0.12.0
+70 silly idealTree ├── chokidar@1.7.0
+70 silly idealTree ├── co@4.6.0
+70 silly idealTree ├── code-point-at@1.1.0
+70 silly idealTree ├── combined-stream@1.0.6
+70 silly idealTree ├── concat-map@0.0.1
+70 silly idealTree ├─┬ concat-stream@1.6.0
+70 silly idealTree │ ├── isarray@1.0.0
+70 silly idealTree │ ├── readable-stream@2.3.6
+70 silly idealTree │ └── string_decoder@1.1.1
+70 silly idealTree ├── core-util-is@1.0.2
+70 silly idealTree ├─┬ cryptiles@3.1.2
+70 silly idealTree │ └── boom@5.2.0
+70 silly idealTree ├── currently-unhandled@0.4.1
+70 silly idealTree ├── dashdash@1.14.1
+70 silly idealTree ├── debug@2.6.9
+70 silly idealTree ├── decamelize@1.2.0
+70 silly idealTree ├── deep-extend@0.4.2
+70 silly idealTree ├── delayed-stream@1.0.0
+70 silly idealTree ├── ecc-jsbn@0.1.1
+70 silly idealTree ├── electron-download@3.3.0
+70 silly idealTree ├── electron-reload@1.2.2
+70 silly idealTree ├── electron@1.8.7
+70 silly idealTree ├── error-ex@1.3.1
+70 silly idealTree ├── es6-promise@4.2.4
+70 silly idealTree ├── expand-brackets@0.1.5
+70 silly idealTree ├── expand-range@1.8.2
+70 silly idealTree ├── extend@3.0.1
+70 silly idealTree ├── extglob@0.3.2
+70 silly idealTree ├── extract-zip@1.6.6
+70 silly idealTree ├── extsprintf@1.3.0
+70 silly idealTree ├── fast-deep-equal@1.1.0
+70 silly idealTree ├── fast-json-stable-stringify@2.0.0
+70 silly idealTree ├── fd-slicer@1.0.1
+70 silly idealTree ├── filename-regex@2.0.1
+70 silly idealTree ├── fill-range@2.2.3
+70 silly idealTree ├── find-up@1.1.2
+70 silly idealTree ├── for-in@1.0.2
+70 silly idealTree ├── for-own@0.1.5
+70 silly idealTree ├── forever-agent@0.6.1
+70 silly idealTree ├── form-data@2.3.2
+70 silly idealTree ├── fs-extra@0.30.0
+70 silly idealTree ├── fs.realpath@1.0.0
+70 silly idealTree ├── get-stdin@4.0.1
+70 silly idealTree ├── getpass@0.1.7
+70 silly idealTree ├── glob-base@0.3.0
+70 silly idealTree ├── glob-parent@2.0.0
+70 silly idealTree ├── glob@7.1.2
+70 silly idealTree ├── graceful-fs@4.1.11
+70 silly idealTree ├── har-schema@2.0.0
+70 silly idealTree ├── har-validator@5.0.3
+70 silly idealTree ├── hawk@6.0.2
+70 silly idealTree ├── hoek@4.2.1
+70 silly idealTree ├── home-path@1.0.5
+70 silly idealTree ├── hosted-git-info@2.6.0
+70 silly idealTree ├── http-signature@1.2.0
+70 silly idealTree ├── indent-string@2.1.0
+70 silly idealTree ├── inflight@1.0.6
+70 silly idealTree ├── inherits@2.0.3
+70 silly idealTree ├── ini@1.3.5
+70 silly idealTree ├── is-arrayish@0.2.1
+70 silly idealTree ├── is-binary-path@1.0.1
+70 silly idealTree ├── is-buffer@1.1.6
+70 silly idealTree ├── is-builtin-module@1.0.0
+70 silly idealTree ├── is-dotfile@1.0.3
+70 silly idealTree ├── is-equal-shallow@0.1.3
+70 silly idealTree ├── is-extendable@0.1.1
+70 silly idealTree ├── is-extglob@1.0.0
+70 silly idealTree ├── is-finite@1.0.2
+70 silly idealTree ├── is-fullwidth-code-point@1.0.0
+70 silly idealTree ├── is-glob@2.0.1
+70 silly idealTree ├── is-number@2.1.0
+70 silly idealTree ├── is-posix-bracket@0.1.1
+70 silly idealTree ├── is-primitive@2.0.0
+70 silly idealTree ├── is-typedarray@1.0.0
+70 silly idealTree ├── is-utf8@0.2.1
+70 silly idealTree ├── isarray@0.0.1
+70 silly idealTree ├─┬ isobject@2.1.0
+70 silly idealTree │ └── isarray@1.0.0
+70 silly idealTree ├── isstream@0.1.2
+70 silly idealTree ├── jsbn@0.1.1
+70 silly idealTree ├── json-schema-traverse@0.3.1
+70 silly idealTree ├── json-schema@0.2.3
+70 silly idealTree ├── json-stringify-safe@5.0.1
+70 silly idealTree ├── jsonfile@2.4.0
+70 silly idealTree ├── jsprim@1.4.1
+70 silly idealTree ├── kind-of@3.2.2
+70 silly idealTree ├── klaw@1.3.1
+70 silly idealTree ├── load-json-file@1.1.0
+70 silly idealTree ├── loud-rejection@1.6.0
+70 silly idealTree ├── map-obj@1.0.1
+70 silly idealTree ├── meow@3.7.0
+70 silly idealTree ├── micromatch@2.3.11
+70 silly idealTree ├── mime-db@1.33.0
+70 silly idealTree ├── mime-types@2.1.18
+70 silly idealTree ├── minimatch@3.0.4
+70 silly idealTree ├── minimist@1.2.0
+70 silly idealTree ├─┬ mkdirp@0.5.0
+70 silly idealTree │ └── minimist@0.0.8
+70 silly idealTree ├── ms@2.0.0
+70 silly idealTree ├── normalize-package-data@2.4.0
+70 silly idealTree ├── normalize-path@2.1.1
+70 silly idealTree ├── nugget@2.0.1
+70 silly idealTree ├── number-is-nan@1.0.1
+70 silly idealTree ├── oauth-sign@0.8.2
+70 silly idealTree ├── object-assign@4.1.1
+70 silly idealTree ├── object-keys@0.4.0
+70 silly idealTree ├── object.omit@2.0.1
+70 silly idealTree ├── once@1.4.0
+70 silly idealTree ├── parse-glob@3.0.4
+70 silly idealTree ├── parse-json@2.2.0
+70 silly idealTree ├── path-exists@2.1.0
+70 silly idealTree ├── path-is-absolute@1.0.1
+70 silly idealTree ├── path-type@1.1.0
+70 silly idealTree ├── pend@1.2.0
+70 silly idealTree ├── performance-now@2.1.0
+70 silly idealTree ├── pify@2.3.0
+70 silly idealTree ├── pinkie-promise@2.0.1
+70 silly idealTree ├── pinkie@2.0.4
+70 silly idealTree ├── preserve@0.2.0
+70 silly idealTree ├── pretty-bytes@1.0.4
+70 silly idealTree ├── process-nextick-args@2.0.0
+70 silly idealTree ├── progress-stream@1.2.0
+70 silly idealTree ├── punycode@1.4.1
+70 silly idealTree ├── qs@6.5.1
+70 silly idealTree ├─┬ randomatic@1.1.7
+70 silly idealTree │ ├─┬ is-number@3.0.0
+70 silly idealTree │ │ └── kind-of@3.2.2
+70 silly idealTree │ └── kind-of@4.0.0
+70 silly idealTree ├── rc@1.2.6
+70 silly idealTree ├── read-pkg-up@1.0.1
+70 silly idealTree ├── read-pkg@1.1.0
+70 silly idealTree ├── readable-stream@1.1.14
+70 silly idealTree ├─┬ readdirp@2.1.0
+70 silly idealTree │ ├── isarray@1.0.0
+70 silly idealTree │ ├── readable-stream@2.3.6
+70 silly idealTree │ └── string_decoder@1.1.1
+70 silly idealTree ├── redent@1.0.0
+70 silly idealTree ├── regex-cache@0.4.4
+70 silly idealTree ├── remove-trailing-separator@1.1.0
+70 silly idealTree ├── repeat-element@1.1.2
+70 silly idealTree ├── repeat-string@1.6.1
+70 silly idealTree ├── repeating@2.0.1
+70 silly idealTree ├── request@2.85.0
+70 silly idealTree ├── rimraf@2.6.2
+70 silly idealTree ├── safe-buffer@5.1.1
+70 silly idealTree ├── semver@5.5.0
+70 silly idealTree ├── set-immediate-shim@1.0.1
+70 silly idealTree ├── signal-exit@3.0.2
+70 silly idealTree ├── single-line-log@1.1.2
+70 silly idealTree ├── sntp@2.1.0
+70 silly idealTree ├── spdx-correct@3.0.0
+70 silly idealTree ├── spdx-exceptions@2.1.0
+70 silly idealTree ├── spdx-expression-parse@3.0.0
+70 silly idealTree ├── spdx-license-ids@3.0.0
+70 silly idealTree ├── speedometer@0.1.4
+70 silly idealTree ├── sshpk@1.14.1
+70 silly idealTree ├── string_decoder@0.10.31
+70 silly idealTree ├── string-width@1.0.2
+70 silly idealTree ├── stringstream@0.0.5
+70 silly idealTree ├── strip-ansi@3.0.1
+70 silly idealTree ├── strip-bom@2.0.0
+70 silly idealTree ├── strip-indent@1.0.1
+70 silly idealTree ├── strip-json-comments@2.0.1
+70 silly idealTree ├── sumchecker@1.3.1
+70 silly idealTree ├── throttleit@0.0.2
+70 silly idealTree ├── through2@0.2.3
+70 silly idealTree ├── tough-cookie@2.3.4
+70 silly idealTree ├── trim-newlines@1.0.0
+70 silly idealTree ├── tunnel-agent@0.6.0
+70 silly idealTree ├── tweetnacl@0.14.5
+70 silly idealTree ├── typedarray@0.0.6
+70 silly idealTree ├── util-deprecate@1.0.2
+70 silly idealTree ├── uuid@3.2.1
+70 silly idealTree ├── validate-npm-package-license@3.0.3
+70 silly idealTree ├── verror@1.10.0
+70 silly idealTree ├── wrappy@1.0.2
+70 silly idealTree ├── xtend@2.1.2
+70 silly idealTree └── yauzl@2.4.1
+71 silly generateActionsToTake Starting
+72 silly install generateActionsToTake
+73 silly generateActionsToTake Finishing
+74 silly diffTrees action count 2
+75 silly diffTrees add electron@1.8.7
+76 silly diffTrees update electron-reload@1.2.2
+77 silly decomposeActions action count 16
+78 silly decomposeActions fetch electron@1.8.7
+79 silly decomposeActions extract electron@1.8.7
+80 silly decomposeActions test electron@1.8.7
+81 silly decomposeActions preinstall electron@1.8.7
+82 silly decomposeActions build electron@1.8.7
+83 silly decomposeActions install electron@1.8.7
+84 silly decomposeActions postinstall electron@1.8.7
+85 silly decomposeActions finalize electron@1.8.7
+86 silly decomposeActions fetch electron-reload@1.2.2
+87 silly decomposeActions extract electron-reload@1.2.2
+88 silly decomposeActions test electron-reload@1.2.2
+89 silly decomposeActions preinstall electron-reload@1.2.2
+90 silly decomposeActions build electron-reload@1.2.2
+91 silly decomposeActions install electron-reload@1.2.2
+92 silly decomposeActions postinstall electron-reload@1.2.2
+93 silly decomposeActions finalize electron-reload@1.2.2
+94 silly executeActions Starting
+95 silly install executeActions
+96 silly doSerial global-install 0
+97 silly doParallel fetch 2
+98 verbose lock using /home/ubuntu/.npm/_locks/staging-2fca004dc1a1853c.lock for /home/ubuntu/Documents/SignApp/node_modules/.staging
+99 silly doParallel extract 2
+100 silly extract electron@1.8.7
+101 silly extract electron-reload@1.2.2
+102 silly addNamed electron-reload@1.2.2
+103 verbose addNamed "1.2.2" is a plain semver version for electron-reload
+104 silly mapToRegistry name electron-reload
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/electron-reload
+108 verbose addNameVersion registry:https://registry.npmjs.org/electron-reload not in flight; fetching
+109 verbose unbuild node_modules/.staging/electron-0b194569
+110 verbose get https://registry.npmjs.org/electron-reload not expired, no request
+111 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569 is being purged from base /home/ubuntu/Documents/SignApp
+112 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+113 verbose tar unpack /home/ubuntu/.npm/electron/1.8.7/package.tgz
+114 verbose tar unpacking to /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+115 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569 is being purged
+116 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+117 silly gunzTarPerm modes [ '775', '664' ]
+118 silly mapToRegistry name electron-reload
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/electron-reload
+122 verbose addRemoteTarball https://registry.npmjs.org/electron-reload/-/electron-reload-1.2.2.tgz not in flight; adding
+123 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron-reload/-/electron-reload-1.2.2.tgz',
+123 verbose addRemoteTarball   '621ddb443b9fbba1c5e29a5fdd683322b5c42284' ]
+124 info retry fetch attempt 1 at 8:13:19 PM
+125 info attempt registry request try #1 at 8:13:19 PM
+126 http fetch GET https://registry.npmjs.org/electron-reload/-/electron-reload-1.2.2.tgz
+127 silly gunzTarPerm extractEntry package.json
+128 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+129 silly gunzTarPerm extractEntry cli.js
+130 silly gunzTarPerm modified mode [ 'cli.js', 420, 436 ]
+131 silly gunzTarPerm extractEntry electron.d.ts
+132 silly gunzTarPerm modified mode [ 'electron.d.ts', 420, 436 ]
+133 silly gunzTarPerm extractEntry index.js
+134 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+135 silly gunzTarPerm extractEntry install.js
+136 silly gunzTarPerm modified mode [ 'install.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry LICENSE
+138 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+141 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569/node_modules is being purged
+142 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569/node_modules
+143 http fetch 200 https://registry.npmjs.org/electron-reload/-/electron-reload-1.2.2.tgz
+144 silly fetchAndShaCheck shasum 621ddb443b9fbba1c5e29a5fdd683322b5c42284
+145 verbose addTmpTarball /tmp/npm-753-4d080a83/registry.npmjs.org/electron-reload/-/electron-reload-1.2.2.tgz not in flight; adding
+146 verbose addTmpTarball already have metadata; skipping unpack for electron-reload@1.2.2
+147 verbose unbuild node_modules/.staging/electron-reload-a9d01e6e
+148 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e is being purged from base /home/ubuntu/Documents/SignApp
+149 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e
+150 verbose tar unpack /home/ubuntu/.npm/electron-reload/1.2.2/package.tgz
+151 verbose tar unpacking to /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e
+152 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e is being purged
+153 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e
+154 silly gunzTarPerm modes [ '775', '664' ]
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+157 silly gunzTarPerm extractEntry .travis.yml
+158 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+159 silly gunzTarPerm extractEntry LICENSE
+160 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+161 silly gunzTarPerm extractEntry main.js
+162 silly gunzTarPerm modified mode [ 'main.js', 420, 436 ]
+163 silly gunzTarPerm extractEntry README.md
+164 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+165 silly gentlyRm /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e/node_modules is being purged
+166 verbose gentlyRm don't care about contents; nuking /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e/node_modules
+167 silly doParallel preinstall 2
+168 silly preinstall electron@1.8.7 /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+169 info lifecycle electron@1.8.7~preinstall: electron@1.8.7
+170 silly preinstall electron-reload@1.2.2 /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e
+171 info lifecycle electron-reload@1.2.2~preinstall: electron-reload@1.2.2
+172 silly lifecycle electron@1.8.7~preinstall: no script for preinstall, continuing
+173 silly lifecycle electron-reload@1.2.2~preinstall: no script for preinstall, continuing
+174 silly doReverseSerial remove 0
+175 silly doSerial move 0
+176 silly doSerial finalize 2
+177 silly finalize /home/ubuntu/Documents/SignApp/node_modules/electron
+178 silly finalize /home/ubuntu/Documents/SignApp/node_modules/electron-reload
+179 silly doSerial build 2
+180 silly build electron@1.8.7
+181 info linkStuff electron@1.8.7
+182 silly linkStuff electron@1.8.7 has /home/ubuntu/Documents/SignApp/node_modules as its parent node_modules
+183 verbose linkBins electron@1.8.7
+184 verbose link bins [ { electron: 'cli.js' },
+184 verbose link bins   '/home/ubuntu/Documents/SignApp/node_modules/.bin',
+184 verbose link bins   false ]
+185 verbose linkMans electron@1.8.7
+186 silly build electron-reload@1.2.2
+187 info linkStuff electron-reload@1.2.2
+188 silly linkStuff electron-reload@1.2.2 has /home/ubuntu/Documents/SignApp/node_modules as its parent node_modules
+189 verbose linkBins electron-reload@1.2.2
+190 verbose linkMans electron-reload@1.2.2
+191 silly doSerial global-link 0
+192 silly doParallel update-linked 0
+193 silly doSerial install 2
+194 silly install electron@1.8.7 /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+195 info lifecycle electron@1.8.7~install: electron@1.8.7
+196 silly lifecycle electron@1.8.7~install: no script for install, continuing
+197 silly install electron-reload@1.2.2 /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-reload-a9d01e6e
+198 info lifecycle electron-reload@1.2.2~install: electron-reload@1.2.2
+199 silly lifecycle electron-reload@1.2.2~install: no script for install, continuing
+200 silly doSerial postinstall 2
+201 silly postinstall electron@1.8.7 /home/ubuntu/Documents/SignApp/node_modules/.staging/electron-0b194569
+202 info lifecycle electron@1.8.7~postinstall: electron@1.8.7
+203 verbose lifecycle electron@1.8.7~postinstall: unsafe-perm in lifecycle true
+204 verbose lifecycle electron@1.8.7~postinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/home/ubuntu/Documents/SignApp/node_modules/electron/node_modules/.bin:/home/ubuntu/Documents/SignApp/node_modules/.bin:/home/ubuntu/anaconda3/bin:/home/ubuntu/caffe/:/home/ubuntu/Documents/xgboost/:/home/ubuntu/anaconda3/bin:/home/ubuntu/caffe/:/home/ubuntu/Documents/xgboost/:/home/ubuntu/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+205 verbose lifecycle electron@1.8.7~postinstall: CWD: /home/ubuntu/Documents/SignApp/node_modules/electron
+206 silly lifecycle electron@1.8.7~postinstall: Args: [ '-c', 'node install.js' ]
+207 info lifecycle electron@1.8.7~postinstall: Failed to exec postinstall script
+208 verbose unlock done using /home/ubuntu/.npm/_locks/staging-2fca004dc1a1853c.lock for /home/ubuntu/Documents/SignApp/node_modules/.staging
+209 silly rollbackFailedOptional Starting
+210 silly rollbackFailedOptional Finishing
+211 silly runTopLevelLifecycles Starting
+212 silly runTopLevelLifecycles Finishing
+213 silly install printInstalled
+214 warn optional Skipping failed optional dependency /chokidar/fsevents:
+215 warn notsup Not compatible with your operating system or architecture: fsevents@1.2.4
+216 warn SignApp@1.0.0 No description
+217 warn SignApp@1.0.0 No repository field.
+218 verbose stack Error: electron@1.8.7 postinstall: `node install.js`
+218 verbose stack spawn ENOENT
+218 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+218 verbose stack     at emitTwo (events.js:87:13)
+218 verbose stack     at ChildProcess.emit (events.js:172:7)
+218 verbose stack     at maybeClose (internal/child_process.js:821:16)
+218 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+219 verbose pkgid electron@1.8.7
+220 verbose cwd /home/ubuntu/Documents/SignApp
+221 error Linux 4.4.0-127-generic
+222 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+223 error node v4.2.6
+224 error npm  v3.5.2
+225 error file sh
+226 error code ELIFECYCLE
+227 error errno ENOENT
+228 error syscall spawn
+229 error electron@1.8.7 postinstall: `node install.js`
+229 error spawn ENOENT
+230 error Failed at the electron@1.8.7 postinstall script 'node install.js'.
+230 error Make sure you have the latest version of node.js and npm installed.
+230 error If you do, this is most likely a problem with the electron package,
+230 error not with npm itself.
+230 error Tell the author that this fails on your system:
+230 error     node install.js
+230 error You can get information on how to open an issue for this project with:
+230 error     npm bugs electron
+230 error Or if that isn't available, you can get their info via:
+230 error     npm owner ls electron
+230 error There is likely additional logging output above.
+231 verbose exit [ 1, true ]
